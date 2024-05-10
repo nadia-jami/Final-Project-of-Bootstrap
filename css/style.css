@@ -1,0 +1,23 @@
+
+.projects{
+ transition: margin-top 1s ease;
+
+}
+.projects:hover{
+  margin-top: -8px;
+}
+
+footer{
+    line-height: 2rem;
+}
+
+input[type=text], input[type=email], #textarea{
+    width: 100%;
+    transition: width 1s;
+}
+
+input[type=text]:focus , input[type=email]:focus , #textarea:focus{
+    width: 97%;
+    background-color: rgb(213, 245, 248);
+    border: none;
+}
